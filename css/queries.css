@@ -1,0 +1,154 @@
+@media (max-width: 72em) {
+  html {
+    font-size: 56%;
+  }
+
+  .heading-primary {
+    font-size: 3.3rem;
+  }
+}
+
+@media (max-width: 61em) {
+  .heading-secondary {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .heading-tertiary {
+    font-size: 2.8rem;
+  }
+
+  .access {
+    gap: 8rem;
+  }
+}
+
+@media (max-width: 53em) {
+  .logo {
+    width: 13rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.5rem;
+  }
+
+  .hero-description {
+    line-height: 1.6;
+    margin-block-end: 3rem;
+  }
+
+  .hero-cta div {
+    gap: 2rem;
+  }
+
+  .hero-cta input {
+    flex-basis: 100%;
+  }
+
+  .hero-cta .btn,
+  .btn {
+    flex-basis: 100%;
+  }
+
+  .hero,
+  .product,
+  .access,
+  .grid--footer {
+    grid-template-columns: 1fr;
+  }
+
+  .hero,
+  .access {
+    text-align: center;
+  }
+
+  .hero-img-box,
+  .product-img-box {
+    order: -1;
+  }
+
+  .product {
+    gap: 10rem;
+  }
+
+  .product-content,
+  .testimonial {
+    margin-inline: auto;
+  }
+
+  .product-btn {
+    text-align: center;
+  }
+
+  .testimonial {
+    padding-inline-end: 2.2rem;
+  }
+
+  .testimonial-text span {
+    font-size: 1.1rem;
+  }
+
+  .access {
+    gap: 3rem;
+  }
+
+  .footer {
+    padding: 7rem 0 6rem;
+  }
+
+  .logo-icon {
+    margin-bottom: 4rem;
+  }
+
+  .grid--footer {
+    gap: 6rem;
+  }
+
+  .social {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 32em) {
+  .heading-primary {
+    font-size: 2.5rem;
+  }
+
+  .heading-secondary {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 9rem;
+  }
+
+  .main-nav-list {
+    gap: 3rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.3rem;
+  }
+
+  .hero-cta div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-product {
+    background: url(/images/bg-curve-mobile.svg) no-repeat;
+    background-size: 2000px 100%;
+    background-position: center;
+    padding: 10rem 0 5rem;
+  }
+
+  .product-content {
+    font-size: 1.45rem;
+  }
+
+  .testimonial {
+    width: 90%;
+  }
+}
